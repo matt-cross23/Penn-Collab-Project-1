@@ -1,8 +1,6 @@
 # Penn-Collab-Project-1
 ## Description
-```
 As a developer I want to input profiles and criteria, then input data into each profile under said criteria(s); and track the frequency and development of each criteria, then plot the information to visually display trends for each profile. In addition, I want to log historic information and filter it based-upon the given week of the year, i.e. Jan. 1st to 7th is week 1; I also want to provide additional theory resources that will assist the user when developing profiles and criteria.
-```
 
 ## APIs (Third-party)
 ```
