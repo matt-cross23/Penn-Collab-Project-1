@@ -1,0 +1,29 @@
+.container {
+  border: 2px solid red;
+  border-radius: 12px;
+  width: fit-content;
+  height: fit-content;
+   padding: 20px;
+  display: inline-block;
+  justify-content: space-evenly;
+  position: relative;
+  left: 40%;
+  top: 50%;
+  margin-right: 1010px; 
+  margin-left: -600px;
+  margin-top: 250px;
+
+} 
+
+.header{
+    border: 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+.input{
+    border: 2px solid;
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px;
+}
