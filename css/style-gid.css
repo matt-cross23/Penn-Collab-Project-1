@@ -1,0 +1,75 @@
+/* table {
+    
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+  }
+  #profile-1{
+    margin-left: 1px;
+  
+  }
+  #profile-3{
+    margin-right: 1px;
+  }
+  
+#chart-table{
+  width: 400px;
+  height: 120px;
+  padding: 50px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  }
+.class-container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+
+
+  #chart-table.flex-container{
+      flex: 5;
+      justify-content: center;
+      flex-wrap: wrap;
+      display: flex;
+ 
+  }
+  .criteria-holder{
+    flex: 0 0 150px;
+    /* background-color: yellow; */
+    justify-content: center;
+  }
+
+  .frequency-holder{
+    flex: 0 0 150px;
+    /* background-color: violet; */
+    justify-content: center;
+  }
+
+  .criteria{
+    justify-content: right;
+    text-align: right;
+  }
+
+  .frequency{
+    justify-content: left;
+    text-align: left;
+  }
+
+
+
