@@ -50,6 +50,11 @@
   /* background-color: yellow; */
   justify-content: center;
 }
+#profile-menu{
+    position: absolute;
+    left: 25%;
+    margin-right: 200px;
+}
 
 .frequency-holder {
   flex: 0 0 150px;
@@ -60,11 +65,17 @@
 .criteria {
   justify-content: right;
   text-align: right;
+  position: relative;
+  left: 15%;
+  top: 300px;
 }
 
 .frequency {
   justify-content: left;
   text-align: left;
+  position: relative;
+  right: 25%;
+
 }
 
 .mid-container {
