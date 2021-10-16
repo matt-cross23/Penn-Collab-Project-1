@@ -332,5 +332,9 @@ th:nth-child(even),td:nth-child(even) {
     border: 1px solid black;
     margin: 0px 10px 0px 10px;
 }
+
+.articlePoint {
+    text-align: center;
+}
 /* ``` */
 /* Supporting Documents & Articles End */
