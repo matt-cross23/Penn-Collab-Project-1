@@ -1,0 +1,191 @@
+*{
+    font-family: 'Permanent Marker', cursive;
+    box-sizing: border-box;
+}
+
+/* Header Start */
+/* ``` */
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#date{
+    margin: auto;
+}
+
+#title{
+
+}
+
+#time{
+    margin: auto;
+}
+/* ``` */
+/* Header End */
+
+/* Nav Start */
+/* ``` */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navContainer{
+
+}
+
+#navList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navLink{
+    padding: 0px 20px 0px 20px;
+}
+/* ``` */
+/* Nav End */
+
+/* Criteria & Profile Input Start */
+/* ``` */
+#criteriaProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#CPSelect{
+    margin-right: 20px;
+}
+
+#CPInput{
+    width: 250px;
+}
+
+#submitInput{
+    margin-left: 20px;
+}
+/* ``` */
+/* Criteria & Profile Input End */
+
+/* Criteria & Profile Value Input Start */
+/* ``` */
+#CPValue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+#profileSelect{
+    margin-right: 20px;
+}
+
+#criteriaSelect{
+    margin-right: 20px;
+}
+
+#valueInput{
+    width: 250px;
+}
+
+#submitValue{
+    margin-left: 20px;
+}
+/* ``` */
+/* Criteria & Profile Value Input End */
+
+/* Criteria & Profile Value Input Table Start*/
+/* ``` */
+#CPValueTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+#CPTable{
+    border: 1px solid rgba(150, 212, 212, 0.4);
+}
+
+#tableHeader{
+    
+}
+
+th{
+    padding: 10px;
+}
+
+#tableRow{
+
+}
+
+td{
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+  
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+/* ``` */
+/* Criteria & Profile Value Input Table Start */
+
+/* Criteria & Profile Value Input Graph Start */
+/* ``` */
+#CPValueGraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 15px;
+}
+/* ``` */
+/* Criteria & Profile Value Input Graph End */
+
+/* Supporting Documents & Articles Start */
+/* ``` */
+#supportingDocument{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    margin-left: -40px;
+}
+
+#document{
+    width: 640px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 40px;
+}
+
+#article{
+
+}
+
+#articleList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.articlePoint{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 0px 10px 0px 10px;
+}
+/* ``` */
+/* Supporting Documents & Articles End */
