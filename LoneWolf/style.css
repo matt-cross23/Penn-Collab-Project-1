@@ -10,24 +10,18 @@ body {
 
 /* Header Start */
 /* ``` */
-header{
+#header-top {
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-}
-
-#date{
-    margin: auto;
-}
-
-#title{
-
-}
-
-#time{
-    margin: auto;
-}
+    flex-basis: 0;
+  }
+  
+  .header-top-item {
+    width: 200px;
+    text-align: center;
+    padding: 0px 20px;
+  }
 /* ``` */
 /* Header End */
 
