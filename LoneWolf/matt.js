@@ -59,3 +59,33 @@
 //   }
 // }
 // valueButton.addEventListener("click", populateCriteria);
+// // API call
+  // $ curl -X POST https://pixe.la/v1/users -d '{"token":"thisissecret", "username":"a-know", "agreeTermsOfService":"yes", "notMinor":"yes", "thanksCode":"ThisIsThanksCode"}'
+  // {"message":"Success. Let's visit https://pixe.la/@a-know , it is your profile page!","isSuccess":true}
+// Create Graph
+  // $ curl -X POST https://pixe.la/v1/users/matt-crpss/graphs -H 'X-USER-TOKEN:yaaaaaaa' -d '{"id":"project","name":"Profile-Tracker","unit":"commit","type":"int","color":"ajisai","timezone":"UTC","isSecret":true,"publishOptionalData":true}'                                        
+  // {"message":"Success.","isSuccess":true}
+ // Update Graph
+  // $ curl -X PUT https://pixe.la/v1/users/matt-crpss/graphs/project -H 'X-USER-TOKEN:yaaaaaaa' -d '{"name":"profile=tracker","unit":"tasks-completed","color":"shibafu","timezone":"UTC","purgeCacheURLs":["https://camo.githubusercontent.com/xxx/xxxx"],"publishOptionalData":true}'
+  // {"message":"Success.","isSuccess":true}
+  // Post a Pixel
+// curl -X POST https://pixe.la/v1/users/matt-crpss/graphs/project -H 'X-USER-TOKEN:yaaaaaaa' -d '{"date":"20211019","quantity":"9","optionalData":"{\"Profile\":\"Task-Completed\"}"}'
+// {"message":"Success.","isSuccess":true}
+// Show Graph
+// $ open https://pixe.la/v1/users/matt-crpss/graphs/project.html
+// Express Graph
+// $ curl -X GET https://pixe.la/v1/users/matt-crpss/graphs/project?date=20211010&mode=short&appearance=dark
+// {/* <svg xmlns="http://www.w3.org/2000/svg" width="220" height="135" //
+  var requestURL =  "https://pixe.la/@matt-crpss"
+  $.ajax({
+    url: requestURL,
+    method: 'GET',
+  }).then(function(response){
+   var displayGraph = response;
+   console.log(displayGraph);
+    var anchor= $('<a />');
+    // anchor.attr('href', displayGraph);
+    anchor.text("Pixela")
+    $('#firstLink').append(anchor);
+  });
+  $(anchor).click(document.location(response));
