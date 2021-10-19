@@ -3,26 +3,25 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #CB6060
+    ;
+}
+
 /* Header Start */
 /* ``` */
-header{
+#header-top {
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-}
-
-#date{
-    margin: auto;
-}
-
-#title{
-
-}
-
-#time{
-    margin: auto;
-}
+    flex-basis: 0;
+  }
+  
+  .header-top-item {
+    width: 200px;
+    text-align: center;
+    padding: 0px 20px;
+  }
 /* ``` */
 /* Header End */
 
@@ -220,8 +219,6 @@ th:nth-child(even),td:nth-child(even) {
 
 }
 
-
-
 #graph thead tr {
     left: 100%; 
     top: 50%; 
@@ -330,35 +327,49 @@ th:nth-child(even),td:nth-child(even) {
     align-items: center;
     flex-direction: column;
     padding-top: 30px;
-    margin-left: -40px;
 }
 
 #document{
-    width: 640px;
-    height: 100px;
+    width: 80%;
+    height: fit-content;
     border: 1px solid black;
-    margin-left: 40px;
+    margin-bottom: 10px;
 }
 
-#article{
+#document > h1 {
+    text-align: center;
+}
 
+#document > p { 
+    text-align: center;
+}
+
+#article {
+    width: 80%;
+    height: fit-content;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    justify-content: space-around;
 }
 
 #articleList{
-    list-style: none;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .articlePoint{
-    height: 200px;
-    width: 200px;
+    height: fit-content;
+    width: 300px;
     border: 1px solid black;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 25px 10px;
 }
 
 .articlePoint {
     text-align: center;
+    padding: 5px;
 }
 /* ``` */
 /* Supporting Documents & Articles End */

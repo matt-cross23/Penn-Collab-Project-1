@@ -8,14 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"/>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./matt.css" />
+    <link rel="stylesheet" href="./mike.css" />
+
 </head>
 <body>
 
-<header>
-    <div id="date">"Date Goes Here"</div>
-    <h1 id="title">"Title Goes Here"</h1>
-    <div id="time">"Time Goes Here"</div>
+<header id="header-top">
+    <p class=header-top-item id="currentDay"></p>
+    <h1 class=header-top-item>Profile tracker</h1>
+    <p class=header-top-item id="currentTime"></p>
 </header>
 
 <nav>
@@ -78,7 +82,13 @@
 <section id="CPValueTable">
     <table id="CPTable">
         <tr id="tableHeader">
+<<<<<<< HEAD
             
+=======
+            <th id="Name">"Profile"</th>
+            <th id="criteria1">"Criteria 1"</th>
+            <th id="criteria2">"Criteria 2"</th>
+>>>>>>> 6f87b2922a91b85fbbd365e2c1f26c37cf7824d5
         </tr>
         <!-- <tr class="tableRow">
             <td id="profileinput">"Profile 1 Value"</td>
@@ -132,7 +142,8 @@
 
 <section id="supportingDocument">
     <div id="document">
-
+        <h1> Top r/productivity threads</h1>
+        <p>Below are the top three reddit threads in the productivity subreddit</p>
     </div>
     <div id="article">
         <ul id="articleList">
@@ -148,8 +159,9 @@
         </ul>
     </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="./reddit-script.js"></script>
 <script src="./script.js"></script>
 <script src="./matt.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
