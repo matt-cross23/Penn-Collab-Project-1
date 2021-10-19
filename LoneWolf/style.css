@@ -50,28 +50,52 @@ nav{
 /* ``` */
 /* Nav End */
 
-/* Criteria & Profile Input Start */
+/* Profile Input Start */
 /* ``` */
-#criteriaProfile{
+#profileCreate{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
 
-#CPSelect{
+#PSelect{
     margin-right: 20px;
 }
 
-#CPInput{
+#PInput{
     width: 250px;
 }
 
-#submitInput{
+#profileInput{
     margin-left: 20px;
 }
 /* ``` */
-/* Criteria & Profile Input End */
+/* Profile Input End */
+
+/* Criteria Input Start */
+/* ``` */
+#criteriaCreate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+#CSelect{
+    margin-right: 20px;
+}
+
+#CInput{
+    width: 250px;
+}
+
+#criteriaInput{
+    margin-left: 20px;
+}
+/* ``` */
+/* Criteria Input End */
 
 /* Criteria & Profile Value Input Start */
 /* ``` */

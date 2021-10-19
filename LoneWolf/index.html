@@ -40,27 +40,34 @@
     </div>
 </nav>
 
-<section id="criteriaProfile">
-    <select id=CPSelect>
+<section id="profileCreate">
+    <select id=PSelect>
         <option value="profile">
             "Profile"
         </option>
+    </select>
+    <input type="text" name="PInput" id="PInput" placeholder="Type your input here & click Submit." />
+    <button id="profileInput">
+        "Submit"
+    </button>
+</section>
+
+<section id="criteriaCreate">
+    <select id=CSelect>
         <option value="criteria">
             "Criteria"
         </option>
     </select>
-    <input type="text" name="CPInput" id="CPInput" placeholder="Type your input here & click Submit." />
-    <button id="submitInput">
+    <input type="text" name="CInput" id="CInput" placeholder="Type your input here & click Submit." />
+    <button id="criteriaInput">
         "Submit"
     </button>
 </section>
 
 <section id="CPValue">
     <select id="profileSelect">
-        <option>"Profile Value 1"</option>
     </select>
     <select id="criteriaSelect">
-        <option>"Criteria Value 1"</option>
     </select>
     <input type="text" name="valueInput" id="valueInput" placeholder="Type your value here & click Submit." />
     <button id="submitValue">
@@ -71,11 +78,9 @@
 <section id="CPValueTable">
     <table id="CPTable">
         <tr id="tableHeader">
-            <th id="Name">"Profile"</th>
-            <th>"Criteria 1"</th>
-            <th>"Criteria 2"</th>
+            
         </tr>
-        <tr class="tableRow">
+        <!-- <tr class="tableRow">
             <td id="profileinput">"Profile 1 Value"</td>
             <td id="profileCriteria1">"Profile 1 Criteria 1 Value"</td>
             <td>"Profile 1 Criteria 2 Value"</td>
@@ -84,7 +89,7 @@
             <td>"Profile 2 Value"</td>
             <td>"Profile 2 Criteria 1 Value"</td>
             <td>"Profile 2 Criteria 2 Value"</td>
-        </tr>
+        </tr> -->
     </table>
 </section>
 
