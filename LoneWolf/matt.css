@@ -130,6 +130,7 @@
   }
 th{
     border: 2px black solid;
+    color: blanchedalmond;
 }
 td{
     border: 2px black solid;
@@ -143,9 +144,29 @@ td{
 }
 button{
     border-radius: 10px;
-    background-color: gray;
-    opacity: .6;
+    background-color: azure;
+    opacity: 1;
+    color: black;
+    padding: 2px;
+    margin-bottom: 1px;
 }
 button:hover{
-    opacity: 1;
+    opacity: .6;
 }
+input{ border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    border: 2px black solid
+}
+select{ border-radius: 5px;
+    padding: 1px;
+margin-bottom: 1.5px;
+box-shadow: brown;
+border: 2px black solid;
+}
+#caption{
+    padding: 5px;
+    font-size: 20px;
+}
+*{ color: black;} 
+
