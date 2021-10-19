@@ -1,3 +1,10 @@
+console.log("script.js connected");
+
+// header js
+var today = moment();
+$("#currentDay").text(today.format("dddd, MMMM Do"));
+$("#currentTime").text(today.format("h:mm a"));
+
 // Criteria Create Start
 // ```
 var criteriaInput = document.querySelector("#criteriaInput");
@@ -108,3 +115,4 @@ $("#currentDay").text(today.format("dddd, MMMM Do"));
 $("#currentTime").text(today.format("h:mm a"));
 
 console.log("i'm connected");
+
